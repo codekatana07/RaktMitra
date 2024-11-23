@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnFindDonor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Nearby Donors"/>
+
+    <Button
+        android:id="@+id/btnDonateBlood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register as Donor"/>
+
+    <Button
+        android:id="@+id/btnRequestBlood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request Blood"/>
+
+    <Button
+        android:id="@+id/btnNearbyHospitals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Nearby Hospitals"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+
+</LinearLayout>
